@@ -271,5 +271,9 @@ hr {
   .cloud-top {
     right: 154px;
     top: 0px;
+  }
 
+  .flexbox-work {
+    padding: 20px 20px;
+  }
 }
