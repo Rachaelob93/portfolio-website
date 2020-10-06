@@ -170,18 +170,27 @@ hr {
   width: 101%;
   height: auto;
   cursor: pointer;
+  transition: width 0.5s;
+
+}
+
+.portfolio-img:not(:hover){
+  height: auto;
+  width: 300px;
+  transition: width 0.5s;
 }
 
 .contact-me {
   padding: 50px 0;
   line-height: 2;
   text-align: center;
+  margin: auto;
 }
 
 .contact-h3 {
   margin: 15px 0;
 }
-.BUTTON_NWW {
+.btn-style {
 
   border-radius: 20px;
   color: #FFFFFF;
@@ -196,7 +205,7 @@ hr {
   cursor: pointer;
   text-align: center;
 }
-.BUTTON_NWW:hover {
+.btn-style:hover {
   background: rgba(84, 213, 219, 0.91);
   border: groove #337FED 0;
   border-radius: 20px;
@@ -242,6 +251,10 @@ hr {
     width: 100%;
   }
 
+    .portfolio-img:not(:hover){
+    width: 100%;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -250,9 +263,19 @@ hr {
     width: 75%;
   }
 
-.profile-picture {
-  width: 50%; 
-}
+  .profile-picture {
+    width: 50%; 
+  }
+
+  .contact-me {
+    width: 75%;
+  }
+
+  .profile {
+    width: 75%;
+    margin: auto;
+  }
+
 
 }
 
