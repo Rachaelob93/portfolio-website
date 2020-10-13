@@ -152,12 +152,12 @@ hr {
   height: auto;
   line-height: 1.5;
   padding-bottom: 20px;
-  margin-bottom: 8%;
 }
 
 .portfolio-item p {
   width: 87%;
   margin: auto;
+  margin-bottom: 8%;
 }
 
 .portfolio-img{
