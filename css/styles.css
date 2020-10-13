@@ -104,21 +104,13 @@ hr {
   overflow: hidden;
 }
 
-.cloud-top {
-  position: relative;
-  right: 20%;
-  top: 10%;
+.top-container h2 {
+  padding-bottom: 6%;
 }
 
-.mountain {
-  display: block;
-  margin: auto;
-}
-
-.cloud-bottom {
+.cloud-separator{
+    bottom: -18px;
     position: relative;
-    left: 264px;
-    bottom: -47px;
 }
 
 .middle-container {
